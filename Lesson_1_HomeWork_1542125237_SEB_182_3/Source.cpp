@@ -249,5 +249,5 @@ int main()
 	m = dm*0.1;
 	printf("\nResult %fdm = %f", dm, m);
 
-	system("pause"); 11
+	system("pause");
 }
