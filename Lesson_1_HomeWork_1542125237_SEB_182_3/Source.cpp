@@ -49,7 +49,7 @@ int main()
 	printf("Катет (b): ");
 	scanf_s("%f", &b);
 	c = sqrt(pow(a, 2) + pow(b, 2));
-	printf("result: hypotenuse=%f\n", c);     //  Выдает неверное число, видимо ошибка в написании кода
+	printf("result: hypotenuse=%f\n", c);     
 
 											  ///////////////////////////////////////////////////////////////
 
@@ -153,7 +153,7 @@ int main()
 
 	USD = 1.0;
 	printf("\nВведите текущий курс RUB/USD: ");
-	scanf_s("%f\n", &RUB);
+	scanf_s("%f", &RUB);
 
 	do
 	{
@@ -247,7 +247,7 @@ int main()
 	printf("Колличество дециметров: ");
 	scanf_s("%f", &dm);
 	m = dm*0.1;
-	printf("\nResult %fdm = %f", dm, m);
+	printf("\nResult %fdm = %f\n\n\n", dm, m);
 
-	system("pause"); // test sync
+	system("pause");
 }
