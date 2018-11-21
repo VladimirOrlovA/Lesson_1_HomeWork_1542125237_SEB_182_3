@@ -249,5 +249,5 @@ int main()
 	m = dm*0.1;
 	printf("\nResult %fdm = %f", dm, m);
 
-	system("pause");
+	system("pause"); // test sync
 }
